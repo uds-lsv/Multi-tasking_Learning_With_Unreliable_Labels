@@ -34,8 +34,8 @@ In this following setup we aim to generate clean training labeled data from arti
 
 ### Expectation and Maximization
 
-- Python scripts with helper functions (utils.py + con_vec_utils.py) (Extended and modified the code by Esther)
-- Python scripts for the EM noise distribution estimation module (singeEM.py + EM.py) (Extended and modified the code by Esther)
+- Python scripts with helper functions (utils.py + con_vec_utils.py) (Extended and modified the code by [Esther](https://github.com/EstherMaria/NoisyLabelNeuralNetwork))
+- Python scripts for the EM noise distribution estimation module (singeEM.py + EM.py) (Extended and modified the code by [Esther](https://github.com/EstherMaria/NoisyLabelNeuralNetwork))
 
 ### Evaluation
 
