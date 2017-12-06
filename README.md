@@ -1,4 +1,3 @@
-# Multi-tasking_Learning_With_Unreliable_Labels
 # Multi-tasking Learning With Unreliable Labels
 This directory contains the following parts of the 'Multi-tasking Learning with un-reliable labels' experiment conducted for the MSc Thesis.
 Extending the NLNN algorithm proposed by Bekker & Goldbergers in a Multi-tasking Learning set-up to handle noisy labels. 
