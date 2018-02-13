@@ -7,14 +7,13 @@ In this following setup we aim to generate clean training labeled data from arti
 ## Requirements 
 - python2.7 +
 
-- [Stanford-parser](https://nlp.stanford.edu/software/lex-parser.shtml)
+- Stanford-parser
 
-- [Senna](http://ml.nec-labs.com/senna//) - Neural network based tagger
+- Senna - Neural network based tagger
 
-- [Brill Tagger](http://gposttl.sourceforge.net/) - Rule-based tagger
+- Brill Tagger- Rule-based tagger
 
-- [DyNet](https://github.com/clab/dynet) Neural network library
-
+- DyNet 
 
 ## Pre-processing steps: 
 - Sentence seperator using [stanford](https://nlp.stanford.edu/software/tokenizer.shtml) tool.  
