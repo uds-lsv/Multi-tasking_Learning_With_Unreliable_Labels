@@ -5,6 +5,7 @@ In order to extend low-resource data we often used artificial annotators.
 In this following setup we aim to generate clean training labeled data from artificial annotators. 
 
 ## Requirements 
+~~~~
 - python2.7 +
 
 - Stanford-parser
@@ -14,7 +15,7 @@ In this following setup we aim to generate clean training labeled data from arti
 - Brill Tagger- Rule-based tagger
 
 - DyNet 
-
+~~~~
 ## Pre-processing steps: 
 - Sentence seperator using [stanford](https://nlp.stanford.edu/software/tokenizer.shtml) tool.  
 - Then transfering the text into CONLL format.
