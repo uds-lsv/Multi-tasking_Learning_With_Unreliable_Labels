@@ -53,12 +53,12 @@ If you make use of the contents of this repository, please cite [the following p
 
 ```
 @inproceedings{pauletal:2019,
-  author = {{Debjit } Paul and {Mittul } Singh and { Michael A.} { Hedderich} and {Dietrich } Klakow},
+  author = {Debjit Paul, Mittul Singh and Michael A. Hedderich and Dietrich Klakow},
   title = {{Handling Noisy Labels for Robustly Learning from Self-Training Data for Low-Resource Sequence Labeling}},
   year = {2019},
   booktitle = {NAACL-SRW 2019},
   note = {to appear},
-  url = {https://arxiv.org/pdf/1903.12008.pdf}
+  url = {https://arxiv.org/pdf/1904.00676.pdf}
 }
 }
 
