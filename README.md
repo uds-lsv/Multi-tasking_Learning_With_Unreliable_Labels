@@ -47,4 +47,18 @@ In this following setup we aim to generate clean training labeled data from arti
 - demo_script.sh
 - Python scripts with support functions (addpenntree\_chunk.py, addpenntree+NN\_chunk.py and addpenntree\_pos.py and addpenntree+NN\_pos.py) 
 
+## Reference
+
+If you make use of the contents of this repository, please cite [the following paper](https://arxiv.org/abs/1904.00676):
+
+```
+@inproceedings{pauletal:2019,
+  author = {{Debjit } Paul and {Mittul } Singh and { Michael A.} { Hedderich} and {Dietrich } Klakow},
+  title = {{Handling Noisy Labels for Robustly Learning from Self-Training Data for Low-Resource Sequence Labeling}},
+  year = {2019},
+  booktitle = {NAACL-SRW 2019},
+  note = {to appear},
+  url = {https://arxiv.org/pdf/1903.12008.pdf}
+}
+}
 
