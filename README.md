@@ -52,13 +52,20 @@ In this following setup we aim to generate clean training labeled data from arti
 If you make use of the contents of this repository, please cite [the following paper](https://arxiv.org/abs/1904.00676):
 
 ```
-@inproceedings{pauletal:2019,
-  author = {Debjit Paul, Mittul Singh and Michael A. Hedderich and Dietrich Klakow},
-  title = {{Handling Noisy Labels for Robustly Learning from Self-Training Data for Low-Resource Sequence Labeling}},
-  year = {2019},
-  booktitle = {NAACL-SRW 2019},
-  note = {to appear},
-  url = {https://arxiv.org/pdf/1904.00676.pdf}
+@inproceedings{paul-etal-2019-handling,
+    title = "Handling Noisy Labels for Robustly Learning from Self-Training Data for Low-Resource Sequence Labeling",
+    author = "Paul, Debjit  and
+      Singh, Mittul  and
+      Hedderich, Michael A.  and
+      Klakow, Dietrich",
+    booktitle = "Proceedings of the 2019 Conference of the North {A}merican Chapter of the Association for Computational Linguistics: Student Research Workshop",
+    month = jun,
+    year = "2019",
+    address = "Minneapolis, Minnesota",
+    publisher = "Association for Computational Linguistics",
+    url = "https://www.aclweb.org/anthology/N19-3005",
+    pages = "29--34",
+    abstract = "In this paper, we address the problem of effectively self-training neural networks in a low-resource setting. Self-training is frequently used to automatically increase the amount of training data. However, in a low-resource scenario, it is less effective due to unreliable annotations created using self-labeling of unlabeled data. We propose to combine self-training with noise handling on the self-labeled data. Directly estimating noise on the combined clean training set and self-labeled data can lead to corruption of the clean data and hence, performs worse. Thus, we propose the Clean and Noisy Label Neural Network which trains on clean and noisy self-labeled data simultaneously by explicitly modelling clean and noisy labels separately. In our experiments on Chunking and NER, this approach performs more robustly than the baselines. Complementary to this explicit approach, noise can also be handled implicitly with the help of an auxiliary learning task. To such a complementary approach, our method is more beneficial than other baseline methods and together provides the best performance overall.",
 }
-}
+
 
